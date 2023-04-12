@@ -27,7 +27,7 @@ export default function Home() {
       <div className="w-5/6 mx-12 pt-10 grid grid-cols-2 lg:grid-cols-3 gap-3">
         {movies.map((i) => (
           <Card
-            key={item.vote_count}
+            key={i.vote_count}
             alt={i.original_title}
             text={i.title}
             src={i.posterUrl}
