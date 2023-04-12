@@ -24,7 +24,7 @@ export default function Home() {
       <div className="bg-red-500 text-center p-2 md:p-4">
         <h1 className="text-sm  md:text-2xl">Free Movies</h1>
       </div>
-      <div className="w-5/6 mx-12 pt-10 grid grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="w-full px-4 md:px-16 md:gap-6 pt-10 grid grid-cols-2 lg:grid-cols-3 gap-3">
         {movies.map((i) => (
           <Card
             key={i.vote_count}
